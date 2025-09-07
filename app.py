@@ -11,6 +11,6 @@ def get_data():
         "humidity": round(random.uniform(40, 70), 2),
         "light": round(random.uniform(200, 800), 2)
     })
-
+# tes change
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
